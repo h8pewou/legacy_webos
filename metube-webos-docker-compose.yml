@@ -1,0 +1,29 @@
+version: '3.9'
+
+networks:
+  bridge:
+    driver: bridge
+
+services:
+  wrapper:
+    depends_on:
+      - service
+    image: newdeveloper/apache-php
+    networks:
+      - bridge
+    ports:
+      - "8083:80"
+    restart: unless-stopped
+    volumes:
+      - ./downloads:/downloads
+      - ./metube-php-servicewrapper:/var/www/html
+
+  service:
+    image: alexta69/metube
+    networks:
+      - bridge
+    ports:
+      - "8081:8081"
+    restart: unless-stopped
+    volumes:
+      - ./downloads:/downloads
