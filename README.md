@@ -16,7 +16,7 @@ Get the latest release of [squid-alpine-ssl](https://hub.docker.com/r/alatas/squ
 curl -s https://api.github.com/repos/alatas/squid-alpine-ssl/releases/latest | grep "browser_download_url.*docker.zip" | head -1 | cut -d : -f 2,3 | cut -d '"' -f 2 | xargs curl -L -o release.zip ; unzip release.zip ; rm release.zip
 ```
 
-Edit your squid.conf and docker-compose.yml
+Edit your squid.conf:
 
 ```bash
 vi conf/squid.conf
@@ -119,6 +119,8 @@ range_offset_limit 200 MB
 maximum_object_size 200 MB
 quick_abort_min -1
 ```
+
+Edit your docker-compose.yml:
 
 ```bash
 vi docker-compose.yml
