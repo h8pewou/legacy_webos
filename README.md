@@ -156,6 +156,8 @@ docker start sslbump_squid-alpine-ssl_1
 
 ## Dockerizing codepoet80's metube Service Wrapper
 
+# The instructions below are obsolete and are kept here for reference only. Use the following docker image instead: https://hub.docker.com/r/h8pewou/legacy-webos-youtube-service
+
 This is based on [codepoet80's great work](https://github.com/codepoet80/metube-php-servicewrapper).
 
 + Create a new directory for metube related files
