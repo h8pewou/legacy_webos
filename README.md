@@ -7,7 +7,7 @@ Server side tools to keep WebOS 2 & 3 devices functional after the demise of Pal
 Create a new directory for your Squid docker container:
 
 ``` bash
-mkdir sslbump
+mkdir -p sslbump
 cd sslbump/
 ```
 Get the latest release of [squid-alpine-ssl](https://hub.docker.com/r/alatas/squid-alpine-ssl) release:
@@ -15,6 +15,7 @@ Get the latest release of [squid-alpine-ssl](https://hub.docker.com/r/alatas/squ
 ```bash
 curl -s https://api.github.com/repos/alatas/squid-alpine-ssl/releases/latest | grep "browser_download_url.*docker.zip" | head -1 | cut -d : -f 2,3 | cut -d '"' -f 2 | xargs curl -L -o release.zip ; unzip release.zip ; rm release.zip
 ```
+> In order for this to work you may need to install unzip. Debian example: `apt install unzip`
 
 Edit your squid.conf:
 
@@ -153,10 +154,16 @@ Once happy with the configuration file run docker-compose up. If everything work
 docker-compose up
 docker start sslbump_squid-alpine-ssl_1
 ```
+> Missing docker-compose?
+> ```bash
+> sudo curl -L --fail https://github.com/docker/compose/releases/download/1.29.2/run.sh -o /usr/local/bin/docker-compose
+> sudo chmod +x /usr/local/bin/docker-compose
+> ```
 
-## Dockerizing codepoet80's metube Service Wrapper
 
-# The instructions below are obsolete and are kept here for reference only. Use the following docker image instead: https://hub.docker.com/r/h8pewou/legacy-webos-youtube-service
+# Dockerizing codepoet80's metube Service Wrapper
+
+> # The instructions below are obsolete and are kept here for reference only. Use the following docker image instead: https://hub.docker.com/r/h8pewou/legacy-webos-youtube-service
 
 This is based on [codepoet80's great work](https://github.com/codepoet80/metube-php-servicewrapper).
 
