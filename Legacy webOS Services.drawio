@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T18:28:26.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="zb7n7UcxvZvW6kRw50dZ" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T19:35:29.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="uGjUaaG04q9XrkH8Icb5" version="21.5.0" type="github">
   <diagram name="Page-1" id="cCbnzm1xCQD83DKspaT3">
     <mxGraphModel dx="954" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PS-D71UFCIVm1v_QH7SR-17" value="weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="30" width="160" height="700" as="geometry" />
+          <mxGeometry x="420" y="30" width="160" height="840" as="geometry" />
         </mxCell>
         <mxCell id="l4s4kaO-_cYa82F50tmw-3" value="weboslives.eu web server" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-17" vertex="1">
           <mxGeometry x="10" y="40" width="140" height="520" as="geometry">
@@ -30,10 +30,16 @@
         <mxCell id="PS-D71UFCIVm1v_QH7SR-4" value="Recovered webOS ODD videos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="l4s4kaO-_cYa82F50tmw-3">
           <mxGeometry x="10" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-18" value="forum.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-17">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-18" value="status.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-17">
           <mxGeometry x="10" y="580" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-12" value="Flarum demo instance (to be removed)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-18">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-12" value="&lt;span style=&quot;font-style: normal;&quot;&gt;Uptime monitor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-18">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-51" value="forum.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-17">
+          <mxGeometry x="10" y="710" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-52" value="Flarum demo instance (to be removed)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-51">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PS-D71UFCIVm1v_QH7SR-31" value="palm.weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
