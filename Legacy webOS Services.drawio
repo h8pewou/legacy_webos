@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T19:35:29.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="uGjUaaG04q9XrkH8Icb5" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T08:06:32.573Z" agent="Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Mobile/15E148 Safari/604.1" etag="z6oKTYepLXLkraWU-91O" version="21.5.0" type="github">
   <diagram name="Page-1" id="cCbnzm1xCQD83DKspaT3">
-    <mxGraphModel dx="954" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="543" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-17" value="weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-17" value="weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="30" width="160" height="840" as="geometry" />
         </mxCell>
         <mxCell id="l4s4kaO-_cYa82F50tmw-3" value="weboslives.eu web server" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-17" vertex="1">
@@ -18,81 +18,81 @@
         <mxCell id="l4s4kaO-_cYa82F50tmw-5" value="Treocentral/&lt;br&gt;webosnation podcasts" style="rounded=0;whiteSpace=wrap;html=1;" parent="l4s4kaO-_cYa82F50tmw-3" vertex="1">
           <mxGeometry x="10" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-1" value="Palm devicehelp backup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="l4s4kaO-_cYa82F50tmw-3">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-1" value="Palm devicehelp backup" style="rounded=0;whiteSpace=wrap;html=1;" parent="l4s4kaO-_cYa82F50tmw-3" vertex="1">
           <mxGeometry x="10" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-2" value="Legacy sunspider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="l4s4kaO-_cYa82F50tmw-3">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-2" value="Legacy sunspider" style="rounded=0;whiteSpace=wrap;html=1;" parent="l4s4kaO-_cYa82F50tmw-3" vertex="1">
           <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-3" value="webOS Tracker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="l4s4kaO-_cYa82F50tmw-3">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-3" value="webOS Tracker" style="rounded=0;whiteSpace=wrap;html=1;" parent="l4s4kaO-_cYa82F50tmw-3" vertex="1">
           <mxGeometry x="10" y="364.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-4" value="Recovered webOS ODD videos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="l4s4kaO-_cYa82F50tmw-3">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-4" value="Recovered webOS ODD videos" style="rounded=0;whiteSpace=wrap;html=1;" parent="l4s4kaO-_cYa82F50tmw-3" vertex="1">
           <mxGeometry x="10" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-18" value="status.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-17">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-18" value="status.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-17" vertex="1">
           <mxGeometry x="10" y="580" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-12" value="&lt;span style=&quot;font-style: normal;&quot;&gt;Uptime monitor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-18">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-12" value="&lt;span style=&quot;font-style: normal;&quot;&gt;Uptime monitor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" parent="PS-D71UFCIVm1v_QH7SR-18" vertex="1">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-51" value="forum.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-17">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-51" value="forum.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-17" vertex="1">
           <mxGeometry x="10" y="710" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-52" value="Flarum demo instance (to be removed)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-51">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-52" value="Flarum demo instance (to be removed)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" parent="PS-D71UFCIVm1v_QH7SR-51" vertex="1">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-31" value="palm.weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-31" value="palm.weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="30" width="160" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-39" value="palm.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-31">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-39" value="palm.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-31" vertex="1">
           <mxGeometry x="10" y="400" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-10" value="Palm Pleroma" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-39">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-10" value="Palm Pleroma" style="rounded=0;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-39" vertex="1">
           <mxGeometry x="10" y="37" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-5" value="museum.weboslives.eu web server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-31">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-5" value="museum.weboslives.eu web server" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-31" vertex="1">
           <mxGeometry x="10" y="40" width="140" height="350" as="geometry">
             <mxRectangle x="310" y="190" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-6" value="WOSA Museum Mirror" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-5">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-6" value="WOSA Museum Mirror" style="rounded=0;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-5" vertex="1">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-7" value="Palm devicehelp backup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-5">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-7" value="Palm devicehelp backup" style="rounded=0;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-5" vertex="1">
           <mxGeometry x="10" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-8" value="geoip service for webOS stats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-5">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-8" value="geoip service for webOS stats" style="rounded=0;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-5" vertex="1">
           <mxGeometry x="10" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-9" value="Treocentral/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;webosnation podcasts backup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-5">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-9" value="Treocentral/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;webosnation podcasts backup" style="rounded=0;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-5" vertex="1">
           <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-41" value="mirror.weboslives.eu proxmox virtual server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-41" value="mirror.weboslives.eu proxmox virtual server" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="30" width="160" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-42" value="palm.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-41">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-42" value="Datastore" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-41" vertex="1">
           <mxGeometry x="10" y="400" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-43" value="Palm Pleroma" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-42">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-43" value="InfluxDB&lt;br&gt;Grafana" style="rounded=0;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-42" vertex="1">
           <mxGeometry x="10" y="37" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-44" value="mirror.weboslives.eu web server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-41">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-44" value="mirror.weboslives.eu web server" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-41" vertex="1">
           <mxGeometry x="10" y="40" width="140" height="350" as="geometry">
             <mxRectangle x="310" y="190" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-45" value="WOSA Museum Mirror" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-44">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-45" value="WOSA Museum Mirror" style="rounded=0;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-44" vertex="1">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-46" value="Palm devicehelp backup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-44">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-46" value="Palm devicehelp backup" style="rounded=0;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-44" vertex="1">
           <mxGeometry x="10" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-47" value="geoip service for webOS stats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-44">
-          <mxGeometry x="10" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-48" value="Treocentral/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;webosnation podcasts backup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-44">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-48" value="Treocentral/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;webosnation podcasts backup" style="rounded=0;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-44" vertex="1">
           <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-47" value="Tbd" style="rounded=0;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-44" vertex="1">
+          <mxGeometry x="10" y="200" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
