@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T16:56:37.126Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="elqKFNteboy1tOk6Ek6P" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T12:16:35.300Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="jJSznJDA9nOkU33Gs-00" version="21.5.0" type="github">
   <diagram name="Page-1" id="cCbnzm1xCQD83DKspaT3">
-    <mxGraphModel dx="954" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="1829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PS-D71UFCIVm1v_QH7SR-17" value="weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="30" width="160" height="930" as="geometry" />
+          <mxGeometry x="382" y="210" width="160" height="930" as="geometry" />
         </mxCell>
         <mxCell id="l4s4kaO-_cYa82F50tmw-3" value="weboslives.eu web server" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-17" vertex="1">
           <mxGeometry x="10" y="40" width="140" height="600" as="geometry">
@@ -61,10 +61,10 @@
         <mxCell id="5oSPO5W26ucSjFXBTbh1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="PS-D71UFCIVm1v_QH7SR-31" target="PS-D71UFCIVm1v_QH7SR-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="420" />
-              <mxPoint x="560" y="1000" />
-              <mxPoint x="290" y="1000" />
-              <mxPoint x="290" y="512" />
+              <mxPoint x="582" y="600" />
+              <mxPoint x="582" y="1180" />
+              <mxPoint x="312" y="1180" />
+              <mxPoint x="312" y="692" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -74,7 +74,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PS-D71UFCIVm1v_QH7SR-31" value="palm.weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="30" width="160" height="520" as="geometry" />
+          <mxGeometry x="622" y="210" width="160" height="520" as="geometry" />
         </mxCell>
         <mxCell id="PS-D71UFCIVm1v_QH7SR-39" value="palm.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-31" vertex="1">
           <mxGeometry x="10" y="400" width="140" height="110" as="geometry" />
@@ -100,7 +100,7 @@
           <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PS-D71UFCIVm1v_QH7SR-41" value="mirror.weboslives.eu proxmox virtual server" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="30" width="160" height="660" as="geometry" />
+          <mxGeometry x="132" y="210" width="160" height="660" as="geometry" />
         </mxCell>
         <mxCell id="PS-D71UFCIVm1v_QH7SR-42" value="jumpbox" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-41" vertex="1">
           <mxGeometry x="10" y="400" width="140" height="110" as="geometry" />
@@ -168,14 +168,52 @@
         <mxCell id="5oSPO5W26ucSjFXBTbh1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PS-D71UFCIVm1v_QH7SR-17" target="PS-D71UFCIVm1v_QH7SR-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="270" />
-              <mxPoint x="320" y="497" />
+              <mxPoint x="342" y="450" />
+              <mxPoint x="342" y="677" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5oSPO5W26ucSjFXBTbh1-11" value="telegraf on&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ssh tunnel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5oSPO5W26ucSjFXBTbh1-10">
           <mxGeometry x="-0.3287" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-19" value="appcatalog.webosarchive.org vps" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-360" width="210" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-22" value="appcatalog.webosarchive.org web server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="5oSPO5W26ucSjFXBTbh1-19">
+          <mxGeometry x="10" y="40" width="190" height="350" as="geometry">
+            <mxRectangle x="310" y="190" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="5oSPO5W26ucSjFXBTbh1-22" source="5oSPO5W26ucSjFXBTbh1-23" target="5oSPO5W26ucSjFXBTbh1-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="70" />
+              <mxPoint x="210" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-23" value="webOS App Museum II web frontend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5oSPO5W26ucSjFXBTbh1-22">
+          <mxGeometry x="10" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-27" value="webOS App Museum AppImages and AppPackages load balancer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5oSPO5W26ucSjFXBTbh1-22">
+          <mxGeometry x="10" y="120" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5oSPO5W26ucSjFXBTbh1-27" target="PS-D71UFCIVm1v_QH7SR-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="-155" />
+              <mxPoint x="810" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5oSPO5W26ucSjFXBTbh1-27" target="PS-D71UFCIVm1v_QH7SR-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="-155" />
+              <mxPoint x="100" y="320" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
