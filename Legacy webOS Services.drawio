@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-07-01T12:26:24.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="9V13xLMC1cuUPHlJP74z" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-01T12:30:01.102Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="Ph90lNy7VtlPtJvOFVPd" version="21.5.0" type="github">
   <diagram name="Page-1" id="cCbnzm1xCQD83DKspaT3">
     <mxGraphModel dx="3351" dy="2522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-17" value="weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-17" value="weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="382" y="210" width="160" height="930" as="geometry" />
         </mxCell>
         <mxCell id="l4s4kaO-_cYa82F50tmw-3" value="weboslives.eu web server" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-17" vertex="1">
@@ -60,7 +60,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-31" value="palm.weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-31" value="palm.weboslives.eu vps" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="622" y="210" width="160" height="520" as="geometry" />
         </mxCell>
         <mxCell id="PS-D71UFCIVm1v_QH7SR-39" value="palm.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-31" vertex="1">
@@ -86,7 +86,7 @@
         <mxCell id="PS-D71UFCIVm1v_QH7SR-9" value="Treocentral/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;webosnation podcasts backup" style="rounded=0;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-5" vertex="1">
           <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PS-D71UFCIVm1v_QH7SR-41" value="mirror.weboslives.eu proxmox virtual server" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PS-D71UFCIVm1v_QH7SR-41" value="mirror.weboslives.eu proxmox virtual server" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="132" y="210" width="160" height="660" as="geometry" />
         </mxCell>
         <mxCell id="PS-D71UFCIVm1v_QH7SR-42" value="jumpbox" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-41" vertex="1">
@@ -158,7 +158,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-19" value="webosarchive.org vps" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-19" value="webosarchive.org vps" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;gradientColor=none;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="132" y="-290" width="938" height="410" as="geometry" />
         </mxCell>
         <mxCell id="5oSPO5W26ucSjFXBTbh1-22" value="appcatalog.webosarchive.org web server" style="swimlane;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-19" vertex="1">
@@ -326,7 +326,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-9" value="Legacy webOS device" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uOune92CNgHs2ACM1iYS-9" value="Legacy webOS devices" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-430" y="-660" width="980" height="250" as="geometry" />
         </mxCell>
         <mxCell id="uOune92CNgHs2ACM1iYS-17" value="Call installer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uOune92CNgHs2ACM1iYS-9" source="5oSPO5W26ucSjFXBTbh1-61" target="uOune92CNgHs2ACM1iYS-15">
@@ -347,12 +347,12 @@
         <mxCell id="uOune92CNgHs2ACM1iYS-15" value="Preware" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/font-awesome/1792/linux-128.png" vertex="1" parent="uOune92CNgHs2ACM1iYS-9">
           <mxGeometry x="150" y="185" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-10" value="forums.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uOune92CNgHs2ACM1iYS-10" value="forums.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;glass=0;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1200" y="-290" width="140" height="120" as="geometry">
             <mxRectangle x="310" y="190" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-11" value="webos.flarum.cloud&lt;br&gt;(donation supported free flarum instance)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uOune92CNgHs2ACM1iYS-10">
+        <mxCell id="uOune92CNgHs2ACM1iYS-11" value="&lt;b&gt;webos.flarum.cloud&lt;/b&gt;&lt;br&gt;(donation supported free flarum instance)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uOune92CNgHs2ACM1iYS-10">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uOune92CNgHs2ACM1iYS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uOune92CNgHs2ACM1iYS-15" target="l4s4kaO-_cYa82F50tmw-4">
