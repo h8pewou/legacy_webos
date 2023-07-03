@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-01T12:30:01.102Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="Ph90lNy7VtlPtJvOFVPd" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T17:44:35.495Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="xyvHnzZFzZzoYkBhmQm8" version="21.5.2" type="github">
   <diagram name="Page-1" id="cCbnzm1xCQD83DKspaT3">
-    <mxGraphModel dx="3351" dy="2522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1781" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,7 +87,7 @@
           <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PS-D71UFCIVm1v_QH7SR-41" value="mirror.weboslives.eu proxmox virtual server" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="132" y="210" width="160" height="660" as="geometry" />
+          <mxGeometry x="132" y="210" width="160" height="790" as="geometry" />
         </mxCell>
         <mxCell id="PS-D71UFCIVm1v_QH7SR-42" value="jumpbox" style="swimlane;whiteSpace=wrap;html=1;" parent="PS-D71UFCIVm1v_QH7SR-41" vertex="1">
           <mxGeometry x="10" y="400" width="140" height="110" as="geometry" />
@@ -144,6 +144,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-15" value="chatbot" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PS-D71UFCIVm1v_QH7SR-41">
+          <mxGeometry x="10" y="660" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-16" value="Universal Search (ChatGPT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KsYA6uaBuHiAIMC2cyGC-15">
+          <mxGeometry x="10" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="5oSPO5W26ucSjFXBTbh1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="PS-D71UFCIVm1v_QH7SR-17" target="PS-D71UFCIVm1v_QH7SR-43" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="370" as="sourcePoint" />
@@ -158,11 +164,205 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-19" value="webosarchive.org vps" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;gradientColor=none;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="132" y="-290" width="938" height="410" as="geometry" />
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-19" value="webosarchive.org vps2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;gradientColor=none;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="-290" width="730" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-22" value="appcatalog.webosarchive.org web server" style="swimlane;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-19" vertex="1">
-          <mxGeometry x="10" y="40" width="190" height="360" as="geometry">
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-41" value="podcasts.webosarchive.org web server" style="swimlane;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-19" vertex="1">
+          <mxGeometry x="20" y="40" width="190" height="200" as="geometry">
+            <mxRectangle x="310" y="190" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-44" value="podcasts web service" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-41" vertex="1">
+          <mxGeometry x="10" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="5oSPO5W26ucSjFXBTbh1-41" source="5oSPO5W26ucSjFXBTbh1-53" target="5oSPO5W26ucSjFXBTbh1-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="150" />
+              <mxPoint x="-40" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-3" value="http/80&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Podcasts directory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KsYA6uaBuHiAIMC2cyGC-2">
+          <mxGeometry x="0.0909" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-53" value="podcasts web frontend" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-41" vertex="1">
+          <mxGeometry x="10" y="120" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-51" value="chat.webosarchive.org web server" style="swimlane;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-19" vertex="1">
+          <mxGeometry x="230" y="40" width="190" height="200" as="geometry">
+            <mxRectangle x="310" y="190" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-58" value="chat messages" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="5oSPO5W26ucSjFXBTbh1-51" source="5oSPO5W26ucSjFXBTbh1-52" target="5oSPO5W26ucSjFXBTbh1-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="85" />
+              <mxPoint x="220" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-52" value="simplechat service" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-51" vertex="1">
+          <mxGeometry x="10" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-54" value="simplechat discordbot" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-51" vertex="1">
+          <mxGeometry x="10" y="120" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="uOune92CNgHs2ACM1iYS-15" target="PS-D71UFCIVm1v_QH7SR-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-265" y="160" />
+              <mxPoint x="580" y="160" />
+              <mxPoint x="580" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-24" value="http/80&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AppImages,&amp;nbsp;AppPackages&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Including weboslives.eu Preware feeds downloads" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5oSPO5W26ucSjFXBTbh1-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.1244" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="uOune92CNgHs2ACM1iYS-15" target="PS-D71UFCIVm1v_QH7SR-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-265" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-32" value="http/80&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AppImages&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AppPackages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5oSPO5W26ucSjFXBTbh1-30" vertex="1" connectable="0">
+          <mxGeometry x="0.4622" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="5oSPO5W26ucSjFXBTbh1-37" target="5oSPO5W26ucSjFXBTbh1-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="-460" />
+              <mxPoint x="370" y="-195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-47" value="http/80&lt;br&gt;Podcasts directory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5oSPO5W26ucSjFXBTbh1-46" vertex="1" connectable="0">
+          <mxGeometry x="0.0723" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5oSPO5W26ucSjFXBTbh1-37" target="5oSPO5W26ucSjFXBTbh1-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="-90.00000000000023" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="-450" />
+              <mxPoint x="280" y="20" />
+              <mxPoint x="560" y="20" />
+              <mxPoint x="560" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-25" value="http/80&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;webosnation&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;mp3 files" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5oSPO5W26ucSjFXBTbh1-48" vertex="1" connectable="0">
+          <mxGeometry x="0.1279" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.945;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="5oSPO5W26ucSjFXBTbh1-55" target="5oSPO5W26ucSjFXBTbh1-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-57" value="chat messages&lt;br&gt;http/8001?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5oSPO5W26ucSjFXBTbh1-56" vertex="1" connectable="0">
+          <mxGeometry x="0.2739" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5oSPO5W26ucSjFXBTbh1-61" target="5oSPO5W26ucSjFXBTbh1-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="-400" />
+              <mxPoint x="-170" y="-400" />
+              <mxPoint x="-170" y="-198" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-64" value="http/80&lt;br&gt;Get mirror name" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5oSPO5W26ucSjFXBTbh1-63" vertex="1" connectable="0">
+          <mxGeometry x="-0.0666" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="uOune92CNgHs2ACM1iYS-15" target="uOune92CNgHs2ACM1iYS-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-7" value="http/80&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AppImages&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AppPackages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uOune92CNgHs2ACM1iYS-6" vertex="1" connectable="0">
+          <mxGeometry x="0.5633" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uOune92CNgHs2ACM1iYS-5" target="PS-D71UFCIVm1v_QH7SR-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="-38" />
+              <mxPoint x="210" y="-10" />
+              <mxPoint x="800" y="-10" />
+              <mxPoint x="800" y="480" />
+            </Array>
+            <mxPoint x="-60" y="-450" as="sourcePoint" />
+            <mxPoint x="162" y="-105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-3" value="https/443&lt;br&gt;country lookups" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uOune92CNgHs2ACM1iYS-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.0666" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-9" value="Legacy webOS devices" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="-660" width="980" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-17" value="Call installer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="uOune92CNgHs2ACM1iYS-9" source="5oSPO5W26ucSjFXBTbh1-61" target="uOune92CNgHs2ACM1iYS-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-61" value="App Museum II" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/shopping-bag-paper-store-128.png" parent="uOune92CNgHs2ACM1iYS-9" vertex="1">
+          <mxGeometry x="320" y="180" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-37" value="drPodder" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/css-vol-2/24/media-podcast-128.png" parent="uOune92CNgHs2ACM1iYS-9" vertex="1">
+          <mxGeometry x="548.4200000000001" y="180" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-55" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;simplechat" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" parent="uOune92CNgHs2ACM1iYS-9" vertex="1">
+          <mxGeometry x="860" y="185" width="41.58" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-34" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Tablet.svg;" parent="uOune92CNgHs2ACM1iYS-9" vertex="1">
+          <mxGeometry x="60" y="40" width="40" height="84.45" as="geometry" />
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-15" value="Preware" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/font-awesome/1792/linux-128.png" parent="uOune92CNgHs2ACM1iYS-9" vertex="1">
+          <mxGeometry x="150" y="185" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-10" value="discord.com" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;glass=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="-290" width="140" height="210" as="geometry">
+            <mxRectangle x="310" y="190" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-11" value="&lt;span&gt;webOS Archive server&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" parent="uOune92CNgHs2ACM1iYS-10" vertex="1">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-12" value="&lt;span&gt;Homelab Alerts server&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="uOune92CNgHs2ACM1iYS-10">
+          <mxGeometry x="10" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uOune92CNgHs2ACM1iYS-15" target="l4s4kaO-_cYa82F50tmw-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-265" y="190" />
+              <mxPoint x="370" y="190" />
+              <mxPoint x="370" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOune92CNgHs2ACM1iYS-22" value="http/80&lt;br&gt;get weboslives.eu/feeds&lt;br&gt;(e.g., wosa, precentral)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uOune92CNgHs2ACM1iYS-21" vertex="1" connectable="0">
+          <mxGeometry x="0.3485" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-1" value="webosarchive.org vps1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-388" width="390" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="5oSPO5W26ucSjFXBTbh1-22" value="appcatalog.webosarchive.org web server" style="swimlane;whiteSpace=wrap;html=1;" parent="KsYA6uaBuHiAIMC2cyGC-1" vertex="1">
+          <mxGeometry x="14" y="40" width="190" height="440" as="geometry">
             <mxRectangle x="310" y="190" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -185,187 +385,66 @@
         <mxCell id="5oSPO5W26ucSjFXBTbh1-27" value="webOS App Museum AppImages and AppPackages load balancer" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-22" vertex="1">
           <mxGeometry x="10" y="120" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-1" value="WOSA Museum Mirror" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5oSPO5W26ucSjFXBTbh1-22">
+        <mxCell id="uOune92CNgHs2ACM1iYS-1" value="WOSA Museum Mirror" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-22" vertex="1">
           <mxGeometry x="10" y="200" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-5" value="webOS App Museum Stats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5oSPO5W26ucSjFXBTbh1-22">
+        <mxCell id="uOune92CNgHs2ACM1iYS-5" value="webOS App Museum Stats" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-22" vertex="1">
           <mxGeometry x="10" y="280" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-41" value="podcasts.webosarchive.org web server" style="swimlane;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-19" vertex="1">
-          <mxGeometry x="250" y="40" width="190" height="200" as="geometry">
+        <mxCell id="uOune92CNgHs2ACM1iYS-8" value="webOS App Museum Updater Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-22" vertex="1">
+          <mxGeometry x="10" y="360" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-9" value="Uptime Robot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KsYA6uaBuHiAIMC2cyGC-1">
+          <mxGeometry x="216" y="400" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-4" value="forums.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;glass=0;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="-290" width="140" height="120" as="geometry">
             <mxRectangle x="310" y="190" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-44" value="podcasts web service" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-41" vertex="1">
-          <mxGeometry x="10" y="40" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-53" value="podcasts web frontend" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-41" vertex="1">
-          <mxGeometry x="10" y="120" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-51" value="chat.webosarchive.org web server" style="swimlane;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-19" vertex="1">
-          <mxGeometry x="458" y="40" width="190" height="200" as="geometry">
-            <mxRectangle x="310" y="190" width="120" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-58" value="chat messages" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="5oSPO5W26ucSjFXBTbh1-51" source="5oSPO5W26ucSjFXBTbh1-52" target="5oSPO5W26ucSjFXBTbh1-54" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="220" y="85" />
-              <mxPoint x="220" y="135" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-52" value="simplechat service" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-51" vertex="1">
-          <mxGeometry x="10" y="40" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-54" value="simplechat discordbot" style="rounded=0;whiteSpace=wrap;html=1;" parent="5oSPO5W26ucSjFXBTbh1-51" vertex="1">
-          <mxGeometry x="10" y="120" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-8" value="webOS App Museum Updater Service?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5oSPO5W26ucSjFXBTbh1-19">
-          <mxGeometry x="260" y="270" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="uOune92CNgHs2ACM1iYS-15" target="PS-D71UFCIVm1v_QH7SR-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-265" y="150" />
-              <mxPoint x="580" y="150" />
-              <mxPoint x="580" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-24" value="http/80&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AppImages&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AppPackages&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Including weboslives feeds downloads" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5oSPO5W26ucSjFXBTbh1-29">
-          <mxGeometry x="-0.1244" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="uOune92CNgHs2ACM1iYS-15" target="PS-D71UFCIVm1v_QH7SR-45" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-265" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-32" value="http/80&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AppImages&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AppPackages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5oSPO5W26ucSjFXBTbh1-30" vertex="1" connectable="0">
-          <mxGeometry x="0.4622" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5oSPO5W26ucSjFXBTbh1-37" target="5oSPO5W26ucSjFXBTbh1-44" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="370" y="-460" />
-              <mxPoint x="370" y="-180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-47" value="Podcasts directory&lt;br&gt;http/80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5oSPO5W26ucSjFXBTbh1-46" vertex="1" connectable="0">
-          <mxGeometry x="0.0723" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5oSPO5W26ucSjFXBTbh1-37" target="5oSPO5W26ucSjFXBTbh1-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="-90.00000000000023" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="360" y="-450" />
-              <mxPoint x="360" y="140" />
-              <mxPoint x="550" y="140" />
-              <mxPoint x="550" y="480" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-25" value="http/80&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;webosnation&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;mp3 files" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5oSPO5W26ucSjFXBTbh1-48">
-          <mxGeometry x="0.1279" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.945;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="5oSPO5W26ucSjFXBTbh1-55" target="5oSPO5W26ucSjFXBTbh1-52" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-57" value="chat messages&lt;br&gt;http/8001?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5oSPO5W26ucSjFXBTbh1-56" vertex="1" connectable="0">
-          <mxGeometry x="0.2739" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5oSPO5W26ucSjFXBTbh1-61" target="5oSPO5W26ucSjFXBTbh1-27" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-90" y="-100" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-64" value="http/80&lt;br&gt;Get mirror name" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5oSPO5W26ucSjFXBTbh1-63" vertex="1" connectable="0">
-          <mxGeometry x="-0.0666" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uOune92CNgHs2ACM1iYS-15" target="uOune92CNgHs2ACM1iYS-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-265" y="-20" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-7" value="http/80&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AppImages&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AppPackages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uOune92CNgHs2ACM1iYS-6">
-          <mxGeometry x="0.5633" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uOune92CNgHs2ACM1iYS-5" target="PS-D71UFCIVm1v_QH7SR-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="850" y="60" />
-              <mxPoint x="850" y="480" />
-            </Array>
-            <mxPoint x="-60" y="-450" as="sourcePoint" />
-            <mxPoint x="162" y="-105" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-3" value="https/443&lt;br&gt;country lookups" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uOune92CNgHs2ACM1iYS-2">
-          <mxGeometry x="-0.0666" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-9" value="Legacy webOS devices" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="-660" width="980" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-17" value="Call installer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uOune92CNgHs2ACM1iYS-9" source="5oSPO5W26ucSjFXBTbh1-61" target="uOune92CNgHs2ACM1iYS-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-61" value="App Museum II" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/shopping-bag-paper-store-128.png" parent="uOune92CNgHs2ACM1iYS-9" vertex="1">
-          <mxGeometry x="320" y="180" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-37" value="drPodder" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/css-vol-2/24/media-podcast-128.png" parent="uOune92CNgHs2ACM1iYS-9" vertex="1">
-          <mxGeometry x="548.4200000000001" y="180" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-55" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;simplechat" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" parent="uOune92CNgHs2ACM1iYS-9" vertex="1">
-          <mxGeometry x="860" y="185" width="41.58" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5oSPO5W26ucSjFXBTbh1-34" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Tablet.svg;" parent="uOune92CNgHs2ACM1iYS-9" vertex="1">
-          <mxGeometry x="60" y="40" width="40" height="84.45" as="geometry" />
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-15" value="Preware" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/font-awesome/1792/linux-128.png" vertex="1" parent="uOune92CNgHs2ACM1iYS-9">
-          <mxGeometry x="150" y="185" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-10" value="forums.weboslives.eu" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;glass=0;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="-290" width="140" height="120" as="geometry">
-            <mxRectangle x="310" y="190" width="120" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-11" value="&lt;b&gt;webos.flarum.cloud&lt;/b&gt;&lt;br&gt;(donation supported free flarum instance)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uOune92CNgHs2ACM1iYS-10">
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-5" value="&lt;b&gt;webos.flarum.cloud&lt;/b&gt;&lt;br&gt;(donation supported free flarum instance)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KsYA6uaBuHiAIMC2cyGC-4">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uOune92CNgHs2ACM1iYS-15" target="l4s4kaO-_cYa82F50tmw-4">
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="5oSPO5W26ucSjFXBTbh1-54" target="uOune92CNgHs2ACM1iYS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-7" value="SimpleChat&lt;br&gt;webhook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KsYA6uaBuHiAIMC2cyGC-6">
+          <mxGeometry x="0.0349" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KsYA6uaBuHiAIMC2cyGC-9" target="uOune92CNgHs2ACM1iYS-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-265" y="190" />
-              <mxPoint x="370" y="190" />
-              <mxPoint x="370" y="320" />
+              <mxPoint x="1140" y="42" />
+              <mxPoint x="1140" y="-220" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uOune92CNgHs2ACM1iYS-22" value="http/80&lt;br&gt;get weboslives.eu/feeds&lt;br&gt;(e.g., wosa, precentral)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uOune92CNgHs2ACM1iYS-21">
-          <mxGeometry x="0.3485" y="-1" relative="1" as="geometry">
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-11" value="Uptime Robot&lt;br&gt;webhook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KsYA6uaBuHiAIMC2cyGC-10">
+          <mxGeometry x="0.2376" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PS-D71UFCIVm1v_QH7SR-12" target="KsYA6uaBuHiAIMC2cyGC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-14" value="Uptime monitor&lt;br&gt;webhook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KsYA6uaBuHiAIMC2cyGC-13">
+          <mxGeometry x="-0.5431" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="KsYA6uaBuHiAIMC2cyGC-16" target="uOune92CNgHs2ACM1iYS-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212" y="1200" />
+              <mxPoint x="1150" y="1200" />
+              <mxPoint x="1150" y="-205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsYA6uaBuHiAIMC2cyGC-18" value="Universal Search&lt;br&gt;bot integration" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KsYA6uaBuHiAIMC2cyGC-17">
+          <mxGeometry x="0.692" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
