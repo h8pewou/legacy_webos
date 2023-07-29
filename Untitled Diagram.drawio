@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-29T10:35:45.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="x7QLA9UlDpN8sEu6Nke6" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-29T10:36:40.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="ZzNdtRAox5jDV8BgkZpE" version="21.6.2" type="github">
   <diagram id="a45cf8ec-cd66-6f27-3ac3-be6e809c9e4a" name="Service provisioning flow">
     <mxGraphModel dx="2074" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -401,12 +401,17 @@
             <mxPoint x="660" y="950" as="targetPoint" />
             <Array as="points">
               <mxPoint x="814" y="70" />
-              <mxPoint x="814" y="971" />
+              <mxPoint x="814" y="960" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SUnXgk1m0WSZ1oRZI_JK-274" value="service credentials" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SUnXgk1m0WSZ1oRZI_JK-273">
           <mxGeometry x="-0.6809" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SUnXgk1m0WSZ1oRZI_JK-276" value="service credentials" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SUnXgk1m0WSZ1oRZI_JK-273">
+          <mxGeometry x="0.8264" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
